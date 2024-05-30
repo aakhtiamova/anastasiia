@@ -15,4 +15,4 @@ def test_second_request ():
 
     assert body['name'] == 'Chris Wanstrath'
     assert r.status_code == 200
-    print(f."Response Headers are {r.headers}") 
+    print(f"Response Headers are {r.headers}") 
